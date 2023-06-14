@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300;400;500;600;700;800;900&family=Nunito+Sans:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+*{margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+
+ }
+ /* header */
+header .bg-image{
+  background-image: linear-gradient(-90deg,transparent, rgba(245, 246, 252, 0.52)),url(./images/home-bg.jpg );
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+}
+
+header h1{
+  font-family: 'Merienda', cursive;
+  font-size:3rem;
+  font-weight: 700;
+}
+
+header h4{
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+}
+header button{
+  background-color:#be9c79 ;
+  border: none;
+}
+header a{
+  color: #ffffff;
+  text-decoration: none;
+}
+/* header-end*/
+
+/* about-begin */
+.about .card{
+    border: none !important;
+    
+}
+
+.about .card-title{
+   
+    font-family:    'Merienda', cursive; 
+   
+}
+.about .card-text{
+
+    font-family: 'Nunito Sans', sans-serif;
+}
+.about button{
+    color: #fff !important;
+    background-color: #be9c79 !important;
+
+}
+/* about-end */
+
+/* facility start */
+
+.facility .image figure{
+    width: 164px;
+    height: 40px;
+   /* border: 1px solid red; */
+    
+     
+ }
+ .facility .card figure{
+     width: 106px;
+     height: 94px;
+   
+     
+ }
+ .facility img{
+     width: 100%;
+ }
+ .facility h1{
+     font-size:2rem !important;
+     color:black; 
+      font-family: 'Merienda', cursive;
+      text-transform: capitalize;
+ }
+ 
+ .facility p{
+     font-size:.95rem ;
+     font-family: 'Nunito Sans', sans-serif;
+     color: #444444 !important;
+ 
+    
+ }
+ .facility .card{
+     border: none !important;
+ }
+/* facility end */
+
+/* menu start */
+.menu .headingimage img{
+    width: 186px;
+    height: 40px;
+}
+.menu h1{
+    font-size: 2rem !important;
+    font-family: 'Merienda', cursive;
+}
+.menu p{
+    font-size: 1.25rem !important;
+    font-family: 'Nunito Sans', sans-serif;
+    
+}
+/* menu end */
+
+/* gallery start */
+.gallery .headingimage{
+    width: 160px;
+    height: 40px;
+    
+}
+.gallery .post{
+    width: 100%;
+}
+.gallery h1{
+    font-size: 2rem !important;
+    font-family: 'Merienda', cursive;
+    text-transform: capitalize;
+}
+/* gallery end */
+
+/* team start */
+.team .post{
+    width: 180px;
+    height: 40px;
+    /* background-color: aqua; */
+   }
+  
+   .team .postimg{
+    width: 100%;
+  
+  }
+  .team h1{
+   font-size:2.3rem !important;
+   font-family: 'Merienda', cursive;
+   text-transform: capitalize;
+  }
+  .team h4{
+    font-size: 1.3rem !important;
+    font-family: 'Nunito Sans', sans-serif ;
+    text-transform: capitalize;
+    
+  }
+/* team end */
+  
+/* contact start */
+.contact .headingimage{
+    width: 160px;
+    height: 40px;
+    
+}
+.contact .post{
+    width: 100%;
+}
+.contact h1{
+    font-size: 2rem !important;
+    font-family: 'Merienda', cursive;
+    text-transform: capitalize;
+    font-weight: 700 !important;
+}
+.contact .btn{
+    background-color:#be9c79 !important ;
+    color: white !important;
+}
+/* contact end */
+
+/* footer start */
+footer .card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none !important;
+}
+footer .icon{
+    background-color: #be9c79;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer i{
+    color: #fff;
+}
+
+footer span{
+    color: #be9c79;
+}
+/* footer end */
+
+
